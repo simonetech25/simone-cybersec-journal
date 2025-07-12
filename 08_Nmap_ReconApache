@@ -1,1 +1,13 @@
 
+# 🔎 Nmap Recon com Detecção Agressiva
+
+Este exercício mostra o uso do comando `nmap -A` no domínio `scanme.nmap.org` para obter:
+
+- Serviços abertos (como Apache HTTP)
+- Versões dos serviços
+- Sistema operacional estimado
+- Rota da conexão (traceroute)
+
+### 🛠 Comando usado:
+```bash
+nmap -A scanme.nmap.org
